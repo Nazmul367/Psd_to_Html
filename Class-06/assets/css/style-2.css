@@ -1,0 +1,61 @@
+.hero-area-2 {background-image: url(../img/hero-bg-2.png); background-color: #359af3;}
+.boxed-btn {background-color: #24d5a1;}
+
+.hero-area-2 {
+    background-size: cover;
+    background-position: center;
+    line-height: 1.8;
+    color: #fff;
+    padding: 80px 0;
+}
+.hero-area-2 h1 {
+    font-size: 46px;
+    color: #fff;
+    line-height: 48px;
+    margin-top: 100px;
+}
+.single-service-box-2:hover{
+	background: #22bffb;
+	background: -moz-linear-gradient(top, #22bffb 1%, #4783e8 100%);
+	background: -webkit-linear-gradient(top, #22bffb 1%,#4783e8 100%);
+	background: linear-gradient(to bottom, #22bffb 1%,#4783e8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22bffb', endColorstr='#4783e8',GradientType=0 );
+}
+
+.home-page-2-about h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.home-page-2-about .boxed-btn {
+  margin-top: 14px;
+}
+.home-page-2-about {
+  margin-top: 40px;
+}
+.padding-top-0 {
+  padding-top: 0;
+}
+.single-service-box-2 {
+  display: block;
+  text-align: center;
+  display: table;
+  background: #fbfbfb;
+  height: 250px;
+  width: 100%;
+}
+.single-service-box-2:hover i.fa , .single-service-box-2:hover h3 {
+	color:#fff;
+}
+.single-service-box-2:hover i.fa :hover {
+	transition:.3s;
+}
+.single-service-box-2-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 30px;
+}
+.service-icon-2 {
+  color: #2ea6f6;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
