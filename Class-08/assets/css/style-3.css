@@ -1,0 +1,92 @@
+/* Class 09 */
+
+.slide-bg-1 {background-image: url(../img/homepage-slide-1.jpg);background-size: cover; background-position: center;}
+.slide-bg-2 {background-image: url(../img/homepage-slide-2.jpg);background-size: cover; background-position: center;}
+.slide-bg-3 {background-image: url(../img/homepage-slide-3.jpg);background-size: cover; background-position: center;}
+
+.single-slide-item:after {
+    background: #2467ec;
+    background: -moz-linear-gradient(45deg, #2467ec 0%, #2fdbfb 100%);
+    background: -webkit-linear-gradient(45deg, #2467ec 0%,#2fdbfb 100%);
+    background: linear-gradient(45deg, #2467ec 0%,#2fdbfb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2467ec', endColorstr='#2fdbfb',GradientType=1 );
+}
+html,body {
+  height: 100%;
+}
+.single-slide-item {
+  height: 100%;
+  display: table;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.slide-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  line-height: 1.8;
+  font-weight: 300;
+}
+.single-slide-item:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  opacity: .7;
+  z-index: -1;
+}
+.single-slide-item h1 {
+  font-size: 64px;
+  color: #fff;
+  line-height: 75px;
+}
+.video-play-btn {
+  height: 60px;
+  width: 60px;
+  background: #24d5a1;
+  display: inline-block;
+  line-height: 63px;
+  border-radius: 50%;
+  color: #fff;
+  margin-top: 15px;
+  padding-left: 3px;
+}
+.homepage-slider,.homepage-slider div {
+    height: 100%;
+}
+.homepage-slider div.slide-wrapper,.homepage-slider div.slide-wrapper div,.homepage-slider div.owl-controls,.homepage-slider div.owl-controls div {
+    height: auto;
+}
+
+.homepage-slider .owl-nav div {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  font-size: 25px;
+  color: #fff;
+  opacity: .5;
+  line-height: 30px;
+  margin-top:-15px; 
+  
+}
+.homepage-slider .owl-nav div.owl-next {
+  left: auto;
+  right: 50px;
+}
+.homepage-slider .owl-nav div:hover{
+  opacity: 1;
+}
+.header-absoulate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+	width:100%;
+}
+.header-absoulate .mainmenu li a {
+	color:#fff;
+}
