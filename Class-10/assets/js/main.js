@@ -54,6 +54,16 @@
             autoplay:true,
         });
         
+        $(".memu-trigger").on('click',function(){
+            $(".off-canvas-menu").addClass("show-off-canvas-menu");
+            $(".off-canvas-menu-shade").addClass("active");
+        });
+        
+        $(".menu-close,.off-canvas-menu-shade").on('click',function(){
+            $(".off-canvas-menu").removeClass("show-off-canvas-menu");
+            $(".off-canvas-menu-shade").removeClass("active");
+        });
+        
     });
 
 

@@ -1,1 +1,135 @@
 .homepage-hero-area-4 {background-image: url(../img/hero-area-4.jpg);background-size: cover;background-position: center;}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+	background-color: #24d5a1;
+}
+
+body,html,.homepage-hero-area-4,single-slide-item {
+  height: 100%;
+}
+.single-slide-item {
+  display: table;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+}
+.slide-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  font-weight: 300;
+}
+.slide-wrapper h1 {
+  font-size: 44px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 700;
+}
+.slide-wrapper p {
+  color: #fff;
+  line-height: 25px;
+}
+.homepage-hero-area-4 {
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.homepage-hero-area-4:after {
+  position: absolute;
+  z-index: -1;
+  opacity: .25;
+  background: #073b4c;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+}
+
+.website-checker-form {
+  margin-top: 30px;
+}
+.website-checker-form input {
+  background-color: #073b4c;
+  border-color: #073b4c;
+}
+.website-checker-form input[type=submit],.website-checker-form button[type=submit] {
+  background-color: #24d5a1;
+}
+
+.header-absoulate-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+	width:100%;
+}
+
+.off-canvas-menu {
+  position: fixed;
+  left: -300px;
+  top: 0;
+  z-index: 9999;
+  background: #073b4b;
+  height: 100%;
+  width: 300px;
+  padding: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.off-canvas-menu.show-off-canvas-menu {
+    left: 0; visibility: visible; opacity: 1;
+}
+.menu-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+.menu-logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 10px 2px;
+  border: 1px solid #999;
+  display: inline-block;
+  margin: 40px 0;
+}
+.off-canvas-menu a {
+  color: #fff;
+}
+.off-canvas-menu a:hover {
+  opacity: .5;
+}
+.off-canvas-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 125%;
+  line-height: 2.4;
+}
+.memu-trigger, .search-bar {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 0 2px;
+  cursor: pointer;
+}
+.off-canvas-menu-shade {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #0b3b4b;
+	opacity: 0;
+    visibility: hidden;
+	z-index: 98;
+}
+.off-canvas-menu-shade.active {
+	opacity: .7;
+    visibility: visible;
+}

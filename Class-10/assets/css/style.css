@@ -395,4 +395,22 @@ h2 {
     background: #24d5a1;
 }
 
-/* Class 07 */
+
+.header-absoulate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+	width:100%;
+}
+.header-absoulate .mainmenu li a {
+	color:#fff;
+}
+.website-checker-form input {
+  margin-right: 2%;
+  width: 25%;
+}
+.website-checker-form input[type=submit] {
+  margin-right: 0;
+  width: 15%;
+}
