@@ -64,6 +64,15 @@
             $(".off-canvas-menu-shade").removeClass("active");
         });
         
+        $(".single-testimonial-box").hover(function() {
+            $(".single-testimonial-box").removeClass('active');
+            $(this).addClass('active');
+        });
+        
+        $(".video-play-btn").magnificPopup({
+            type: 'video',
+        });
+        
     });
 
 
