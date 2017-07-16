@@ -69,7 +69,7 @@
             $(this).addClass('active');
         });
         
-        $(".video-play-btn").magnificPopup({
+        $(".video-play-btn-h4").magnificPopup({
             type: 'video',
         });
         
